@@ -118,7 +118,7 @@ const Contact = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        'http://localhost:4000/api/v1/message/send',
+        'https://utsav-planners.onrender.com/api/v1/message/send',
         { name, email, subject, message },
         {
           withCredentials: true,
